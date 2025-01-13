@@ -40,7 +40,7 @@
 }
 .banner-title{
     font-size: 24px;
-    color: rgba(14, 14, 14, 0.70);
+    color: rgba(14, 14, 14, 0.50);
 }
 .banner-description{
     font-weight: bold;
@@ -205,10 +205,12 @@
     background-color: #FFFFFF;
     padding: 40px;
     margin-right: 24px;
+    transition: 1s all;
  }
  .donate-btn:hover {
-    background-color: yellow;
+    background-color: #006A50;
     cursor: pointer;
+    color: #F7EBCF;
   }
  .donate-section input[type="text"]{
     width: 1032px;
@@ -243,8 +245,15 @@
  .newsletter-btns input[type="email"]{
     width: 600px;
     height: 55px;
+    font-size: 16px;
+    color: rgba(84, 144, 245, 0.3);
+    border: none;
+ }
+ .newsletter-btn{
+    border-radius: 0px;
  }
  .newsletter-btns{
-    display: inline;
-    gap: 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
  }
