@@ -1,4 +1,91 @@
+.fira-sans-regular{
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+  }
+  main{
+    margin: 0px 160px;
+  }
 /* Shared style */
+.primary-btn{
+        font-size: 18px;
+        color: #FFFFFF;
+        font-weight: 600;
+        background-color: #006A50;
+        border-radius: 8px;
+        border: none;
+        padding: 20px;
+}
+/* banner style */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    justify-content: space-evenly;
+    gap: 65px;
+    padding: 0px 60px;
+    margin-bottom: 80px;
+}
+.banner-content{
+    max-width: 620px;
+    padding-top: 117px;
+    padding-bottom: 117px;
+}
+.banner-title{
+    font-size: 24px;
+    color: #0E0E0E;
+    opacity: 50%;
+    margin-bottom: 16px;
+}
+.banner-description{
+    font-weight: bold;
+    font-size: 56px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.banner img{
+    width: 474px;
+    height: 400px;
+    margin: 80px 0px 60px;
+}
 
-
-/* Header style */
+/* vison of future section starts */
+.vision-of-future{
+    margin-bottom: 32px;
+}
+.vision-container-title{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.vison-container-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-bottom: 32px;
+    padding-right: 30px;
+}
+.vision-container{
+    display: flex;
+    align-items: center;
+    gap:24px;
+}
+.vison-1{
+    max-width: 410px;
+    padding : 32px;
+    background: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+.vison-2{
+    max-width: 410px;
+    padding : 32px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+}
+.vison-3{
+    max-width: 410px;
+    padding : 32px;
+    background-color: #F7EBCF;
+    border-radius: 16px;
+}
