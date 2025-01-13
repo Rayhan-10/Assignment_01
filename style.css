@@ -25,6 +25,8 @@
     gap: 65px;
     padding: 0px 60px;
     margin-bottom: 80px;
+    border: none;
+    border-radius: 24px;
 }
 .banner-content{
     max-width: 620px;
@@ -88,4 +90,28 @@
     padding : 32px;
     background-color: #F7EBCF;
     border-radius: 16px;
+}
+/* speech styles */
+.speech-container{
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 35px 20px;
+}
+.speech{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 10px;
+}
+.avisor-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 5px;
+}
+.designation{
+    font-size: 14px;
+    color: rgba(14, 14, 14, 0.6);
 }
