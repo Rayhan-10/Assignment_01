@@ -18,6 +18,7 @@
         border-radius: 8px;
         border: none;
         padding: 20px;
+        cursor: pointer;
 }
 /* banner style */
 .banner{
@@ -205,6 +206,10 @@
     padding: 40px;
     margin-right: 24px;
  }
+ .donate-btn:hover {
+    background-color: yellow;
+    cursor: pointer;
+  }
  .donate-section input[type="text"]{
     width: 1032px;
     height: 64px;
@@ -216,3 +221,30 @@
  }
 
  /* newsletter section styles */
+ .newsletter-contents{
+    padding-left: 24px;
+    padding-right: 24px;
+ }
+ .newsletter-section{
+    text-align: center;
+    background-color: #C6E4D6;
+    padding: 80px 265px;
+ }
+ .newsletter-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+ }
+ .newsletter-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.70);
+   
+ }
+ .newsletter-btns input[type="email"]{
+    width: 600px;
+    height: 55px;
+ }
+ .newsletter-btns{
+    display: inline;
+    gap: 0px;
+ }
